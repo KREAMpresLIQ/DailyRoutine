@@ -89,4 +89,3 @@ print("Your band name is: " + city + " " + pet)
 
 #5. Make sure the input cursor shows on a new line:
 
-"\n"
