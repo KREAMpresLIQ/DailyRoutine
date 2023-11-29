@@ -60,6 +60,59 @@ e.g. When you hit **run**, there should be no error and this is what should happ
 ---
 
 
+## Inputs
+
+---
+
+# Instuctions 
+
+---
+
+Write a program that print the number of characters in a user's name.
+You might need to Google for a function that calculates the length of a string
+
+e.g.
+
+https://www.google.com/search?q=how+to+get+the+length+of+a+string+in+python+stack+overflow
+
+**Warning.** Your program should work for different inputs. e.g. any name that you input.
+
+# Example Input
+
+---
+
+```
+Norbert
+```
+
+# Example Output
+
+---
+
+```
+7
+```
+
+e.g. When you hit **run**, this is what should happen:
+
+
+## Hint
+
+---
+
+1. You can put functions inside other functions.
+2. Don't try to print anything other than the length
+
+## Test Your Code
+
+---
+
+Before checking the solution, try copy-pasting your code into this repl:
+
+https://repl.it/@appbrewery/day-1-3-test-your-code
+
+This repl includes my testing code that will check if your code meets this assignment's objectives.
+
 
 
 

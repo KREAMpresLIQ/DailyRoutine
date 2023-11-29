@@ -26,5 +26,22 @@ print("New lines can be created with a backslash and n.")
 
 # Input Function
 #Thonny#
+# https://thonny.org/
+# http://pythontutor.com/
 
-print("Hello" + " " + input("What is your name?") + "!")
+print("Hello" + " " + input("What is your name?\n") + "!")
+
+length_var = input("What is your name? \n")
+print(len(length_var))
+
+# Variables
+
+name = "Jack"
+print(name)
+
+name = "John"
+print(name)
+
+name = input("Type Your name \n")
+length_name = len(name)
+print(length_name)
