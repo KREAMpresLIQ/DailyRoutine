@@ -90,5 +90,3 @@ print("Your band name is: " + city + " " + pet)
 #5. Make sure the input cursor shows on a new line:
 
 "\n"
-
-# Solution: https://replit.com/@appbrewery/band-name-generator-end
