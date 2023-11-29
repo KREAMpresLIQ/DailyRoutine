@@ -59,7 +59,6 @@ e.g. When you hit **run**, there should be no error and this is what should happ
 
 ---
 
-
 ## Inputs
 
 ---
