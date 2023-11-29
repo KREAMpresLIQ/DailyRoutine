@@ -45,3 +45,50 @@ print(name)
 name = input("Type Your name \n")
 length_name = len(name)
 print(length_name)
+
+# VARIABLES PRACTICE
+
+# Don't change the code below
+a = input("a: ")
+b = input("b: ")
+# Don't change the code above
+
+####################################
+# Write your code below this line
+
+c = a
+a = b
+b = c
+
+# Write your code above this line
+####################################
+
+
+# Don't change the code below
+print("a: " + a)
+print("b: " + b)
+
+####################################
+# Band_Name_Generator
+
+#1. Create a greeting for your program.
+
+print("\nWelcome!")
+
+#2. Ask the user for the city that they grew up in.
+
+city = input("What's the name of the city you grew up?\n")
+
+#3. Ask the user for the name of a pet.
+
+pet = input("Your pet name?\n")
+
+#4. Combine the name of their city and pet and show them their band name.
+
+print("Your band name is: " + city + " " + pet)
+
+#5. Make sure the input cursor shows on a new line:
+
+"\n"
+
+# Solution: https://replit.com/@appbrewery/band-name-generator-end
