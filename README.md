@@ -54,7 +54,6 @@ New lines can be created with a backslash and n.
 
 e.g. When you hit **run**, there should be no error and this is what should happen:
 
-
 # Test your Code
 
 ---
