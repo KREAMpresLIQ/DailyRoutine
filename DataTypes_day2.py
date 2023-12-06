@@ -123,7 +123,8 @@ total_pay = bill + total_tip
 print(total_pay)
 per_person_pay = total_pay / people
 print(per_person_pay)
-final_pay = round(per_person_pay, 2)
+# final_pay = round(per_person_pay, 2)
+final_pay = "{:.2f}".format(per_person_pay)
 print(f"Each person should pay: ${final_pay}")
 
 
