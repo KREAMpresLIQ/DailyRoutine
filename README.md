@@ -612,8 +612,6 @@ on every year that is evenly divisible by 4 except every year that is evenly div
 by 100 unless the year is also evenly divisible by 400
 </blockquote>
 
-
-
 e.g. The year 2000:
 
 2000 ÷ 4 = 500 (Leap)
