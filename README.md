@@ -606,14 +606,15 @@ https://www.youtube.com/watch?v=xX96xng7sAE
 
 This is how you work out whether if a particular year is a leap year.
 
-<blockquote class="text-orange">
-<style>.text-orange{color:darkorange;}</style>
-on every year that is evenly divisible by 4 <b>except</b> every year that is evenly divisible
-by 100 <b>unless</b> the year is also evenly divisible by 400
+[//]: # (<blockquote class="text-orange">)
+[//]: # (<style>.text-orange{color:darkorange;}</style>)
+[//]: # (on every year that is evenly divisible by 4 <b>except</b> every year that is evenly divisible)
+[//]: # (by 100 <b>unless</b> the year is also evenly divisible by 400)
+[//]: # (</blockquote>)
+
+<blockquote>
+$\color{orange}{on every year that is evenly divisible by 4 **except** every year that is evenly divisible by 100 **unless** the year is also evenly divisible by 400}$
 </blockquote>
-
-$\color{orange}{test}$
-
 e.g. The year 2000:
 
 2000 ÷ 4 = 500 (Leap)
