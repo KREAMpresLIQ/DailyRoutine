@@ -613,7 +613,7 @@ This is how you work out whether if a particular year is a leap year.
 [//]: # (</blockquote>)
 
 
-$\color{orange}{on every year that is evenly divisible by 4 **except** every year that is evenly divisible by 100 **unless** the year is also evenly divisible by 400}$
+$\color{orange}{on every year that is evenly divisible by 4 except every year that is evenly divisible by 100 unless the year is also evenly divisible by 400}$
 
 e.g. The year 2000:
 
