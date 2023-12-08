@@ -1,15 +1,26 @@
 print("Welcome to the roller coaster!")
 height = int(input("What is your height in cm? "))
+bill_roller = 0
 
 if height > 120:
     print("You can ride the roller coaster!")
     age = int(input("What is you age? "))
     if age < 12:
-        print("Please pay $5.")
+        bill_roller = 5
+        print("Child Ticket are $5.")
     elif 12 <= age <= 18:
-        print("Please pay $7")
+        bill_roller = 7
+        print("Youth Ticket are $7")
     else:
-        print("Please pay $12.")
+        bill_roller = 12
+        print("Adult Ticket are $12.")
+
+    wants_photo = input("Do you want a photo taken? Y or N. ")
+    if wants_photo == "Y":
+        bill_roller = bill_roller + 3
+
+    print(f"Your final bill is ${bill_roller}")
+
 else:
     print("Sorry, you can't ride the roller coaster!")
 
@@ -91,3 +102,34 @@ if year % 4 == 0:
         print("Leap Year.")
 else:
     print("Not Leap Year.")
+
+
+###################################
+# Pizza Order
+
+#  Don't change the code below
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+#  Don't change the code above
+
+# Write your code below this line
+price = 0
+
+if size == "S":
+    price = price + 15
+elif size == "M":
+    price = price + 20
+elif size == "L":
+    price = price + 25
+
+if add_pepperoni == "Y":
+    if size == "S":
+        price = price + 2
+    else:
+        price = price + 3
+if extra_cheese == "Y":
+    price = price + 1
+
+print(f"Your final bill is: ${price}")
