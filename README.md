@@ -2,15 +2,17 @@
 
 ## Instructions
 
-Write a program in start.py that print the same notes from the previous lesson using  what you have
+Write a program in start.py that print the same notes from the previous lesson using what you have
 learn about the Python print function.
 
-**Warning:** The output in your program should match the example output shown below exactly, character for character, even spaces and symbols should be indetical,
+**Warning:** The output in your program should match the example output shown below exactly, character for character,
+even spaces and symbols should be identical,
 otherwise the test won't pass.
 
 # Example Output
 
-After you have written your code, you should run your program and it should print the following:
+After you have written your code, you should run your program, and it should print the following:
+
 ```
 Day 1 - Python Print Function
 ```
@@ -23,10 +25,9 @@ The function is declared like this:
 print('what to print')
 ```
 
-**e.g.** When you hit **run**, this is what should happen: 
+**e.g.** When you hit **run**, this is what should happen:
 
 ![Alt Text](https://replit.com/cdn-cgi/image/quality=80,metadata=copyright,format=auto/https://raw.githubusercontent.com/angelabauer/100-days-gifs/main/1.1.%20print.gif)
-
 
 ## Test Your Code
 
@@ -36,10 +37,11 @@ print('what to print')
 
 # Instructions
 
-Look at the code in the vode editor on the left. There are errors in all of the lines of code.
+Look at the code in the code editor on the left. There are errors in of the lines of code.
 Fix the code so that it runs without errors.
 
-**Warning:** The output in your program should match the example output **shown below** exactly, character for character, even spaces and symbols should be identical, otherwise the tests won't pass.
+**Warning:** The output in your program should match the example output **shown below** exactly, character for
+character, even spaces and symbols should be identical, otherwise the tests won't pass.
 
 # Example Output
 
@@ -62,7 +64,7 @@ e.g. When you hit **run**, there should be no error and this is what should happ
 
 ---
 
-# Instuctions 
+# Instructions
 
 ---
 
@@ -93,7 +95,6 @@ Norbert
 
 e.g. When you hit **run**, this is what should happen:
 
-
 ## Hint
 
 ---
@@ -111,7 +112,6 @@ https://repl.it/@appbrewery/day-1-3-test-your-code
 
 This repl includes my testing code that will check if your code meets this assignment's objectives.
 
-
 # Variables
 
 ---
@@ -122,7 +122,8 @@ This repl includes my testing code that will check if your code meets this assig
 
 Write a program that switches the values stored in the variables **a** and **b**.
 
-**Warning.** Do not change the code on lines **51-54** and **65-67**. Your program should work for different inputs. e.g. any value of **a** and **b**.
+**Warning.** Do not change the code on lines **51-54** and **65-67**. Your program should work for different inputs.
+e.g. any value of **a** and **b**.
 
 ## Example Input
 
@@ -131,6 +132,7 @@ Write a program that switches the values stored in the variables **a** and **b**
 ```
 a: 3
 ```
+
 ```
 b: 5
 ```
@@ -142,14 +144,17 @@ b: 5
 ```
 a: 5
 ```
+
 ```
 b: 3
 ```
+
 e.g. When you hit run, this is what should happen:
 
 ```
 
 ```
+
 ## Hint
 
 ---
@@ -169,8 +174,10 @@ e.g. When you hit run, this is what should happen:
 
 ---
 
-Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8 <br>
-***Warning.*** Do not change the code on lines 1-3. Your program should work for different inputs. e.g. any two-digit number.
+Write a program that adds the digits in a two-digit number. e.g. if the input was 35, then the output should be 3 + 5 =
+8 <br>
+***Warning.*** Do not change the code on lines 1-3. Your program should work for different inputs. e.g. any two-digit
+number.
 
 ## Example Input
 
@@ -191,6 +198,7 @@ Write a program that adds the digits in a 2 digit number. e.g. if the input was 
 ```
 
 e.g. When you hit **run**, this is what should happen:
+
 ```
 ```
 
@@ -198,9 +206,9 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  Try to find out the data type of two_digit_number.
-2.  Think about what you learnt about subscripting.
-3.  Think about tpye conversion.
+1. Try to find out the data type of two_digit_number.
+2. Think about what you learnt about subscripting.
+3. Think about type conversion.
 
 ---
 
@@ -213,11 +221,14 @@ e.g. When you hit **run**, this is what should happen:
 ---
 
 Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
-The BMI is a measure of some's weight taking into account their height. e.g. If a tall person and a short person both weight the same amount, the short person is usually more overweight. <br>
+The BMI is a measure of some weight taking into account their height. e.g. If a tall person and a short person both
+weight the same amount, the short person is usually more overweight. <br>
 The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
+
 ```
 
 ```
+
 **Warning** you should convert the result to a whole number.
 
 ## Example Input
@@ -227,6 +238,7 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 ```
 weight = 80
 ```
+
 ```
 height = 1.75
 ```
@@ -251,9 +263,9 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  Check the data type of the inputs.
+1. Check the data type of the inputs.
 2. Try to use the exponent operator in your code.
-3. Remember PEMDAS
+3. Remember #PEMDAS
 4. Remember to convert your result to a whole number (int).
 
 --- 
@@ -278,7 +290,8 @@ I was reading this article by Tim Urban - Your Life in Weeks and realised just h
 
 https://waitbutwhy.com/2014/05/life-weeks.html
 
-Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90
+years old.
 
 It will take your current age as the input and output a message with our time left in this format:
 
@@ -316,8 +329,8 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  There are 365 days in a year, 52 weeks in a year and 12 month in a year.
-2.  Remember to round the results before printing.
+1. There are 365 days in a year, 52 weeks in a year and 12 month in a year.
+2. Remember to round the results before printing.
 
 # Solution
 
@@ -378,6 +391,7 @@ https://replit.com/@appbrewery/tip-calculator-end#main.py
 ---
 
 # Logical Operators and Control Flow
+
 # Odd or Even
 
 ---
@@ -407,11 +421,15 @@ e.g.
 ```
 6 % 2 = 0
 ```
+
 5 ÷ 2 = 2 x 2 + 1, remainder is 1.
+
 ```
 5 % 2 = 1
 ```
+
 14 ÷ 4 = 3 x 4 + 2, remainder is 2.
+
 ```
 14 % 4 = 2
 ```
@@ -425,6 +443,7 @@ e.g.
 ```
 43
 ```
+
 ## Example Output 1
 
 ---
@@ -459,29 +478,35 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  All even numbers can be divided by 2 with 0 remainder.
-2.  Try some using the modulo with some odd numbers e.g.
+1. All even numbers can be divided by 2 with 0 remainder.
+2. Try some using the modulo with some odd numbers e.g.
 
 ```
 3 % 2
 ```
+
 ```
 5 % 2
 ```
+
 ```
 7 % 2
 ```
+
 Then try using the modulo with some even numbers e.g.
 
 ```
 4 % 2
 ```
+
 ```
 6 % 2
 ```
+
 ```
 8 % 2
 ```
+
 See what's in common each time.
 
 ## Test Your Code
@@ -494,7 +519,7 @@ https://repl.it/@appbrewery/day-3-1-test-your-code
 
 This repl includes my testing code that will check if your code meets this assignment's objectives.
 
-## Solution 
+## Solution
 
 ---
 
@@ -510,7 +535,7 @@ https://repl.it/@appbrewery/day-3-1-solution
 
 ---
 
-Write a pogram that interprets the Body Mass Index (BMI) based on a user's weight and height.
+Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
 It should tell them the interpretation of their BMI based on the BMI value.
 
@@ -528,7 +553,8 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 ```
 ```
 
-**Warning** you should **round** the result to the nearest whole number. The interpretation message needs to include the words in bold from the interpretations above. e.g. **underweight, normal weight, obese, clinically obese.**
+**Warning** you should **round** the result to the nearest whole number. The interpretation message needs to include the
+words in bold from the interpretations above. e.g. **underweight, normal weight, obese, clinically obese.**
 
 ## Example Input
 
@@ -571,9 +597,9 @@ The testing code will check for print output that is formatted like one of the l
 
 ---
 
-1.  Try to use the **exponent** operator in your code.
-2.  Remember to **round** your result to the nearest whole number.
-3.  Make sure you include the words in **bold** from the interpretations.
+1. Try to use the **exponent** operator in your code.
+2. Remember to **round** your result to the nearest whole number.
+3. Make sure you include the words in **bold** from the interpretations.
 
 ## Test Your Code
 
@@ -600,7 +626,8 @@ https://repl.it/@appbrewery/day-3-2-solution
 
 ---
 
-Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, wtih an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
+Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366,
+with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
 
 https://www.youtube.com/watch?v=xX96xng7sAE
 
@@ -640,7 +667,7 @@ But the year 2100 is not a leap year because:
 2400
 ```
 
-## Example Output 1 
+## Example Output 1
 
 ---
 
@@ -674,8 +701,8 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  Try to visualize the rules by creating a flow chart on www.drag.io
-2.  If you really get stuck, you can see the flow chart I created:
+1. Try to visualize the rules by creating a flow chart on www.drag.io
+2. If you really get stuck, you can see the flow chart I created:
 
 https://bit.ly/36BjS2D
 
