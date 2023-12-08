@@ -1,9 +1,8 @@
 # Write your code below this line
 
-print('Day 1 - Python Print Function')
-print('The function is declared like this: ')
+print("Day 1 - Python Print Function")
+print("The function is declared like this: ")
 print("print('what to print')")
-
 
 # String manipulation
 print("Hello world!\nHello World!\nHello World!")
@@ -12,7 +11,7 @@ print("Hello" + " " + "Norbert")
 # Debugging
 # Fix the code below
 
-# print(Day 1 - String Manipulation")
+# print("Day 1 - String Manipulation")
 # print("String Concatenation is done with the "+" sign.")
 # print('e.g. print("Hello " + "world")')
 # print(("New lines can be created with a backslash and n."))
@@ -23,9 +22,8 @@ print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
-
 # Input Function
-#Thonny#
+# Thonny#
 # https://thonny.org/
 # http://pythontutor.com/
 
@@ -71,21 +69,20 @@ print("b: " + b)
 ####################################
 # Band_Name_Generator
 
-#1. Create a greeting for your program.
+# 1. Create a greeting for your program.
 
 print("\nWelcome!")
 
-#2. Ask the user for the city that they grew up in.
+# 2. Ask the user for the city that they grew up in.
 
 city = input("What's the name of the city you grew up?\n")
 
-#3. Ask the user for the name of a pet.
+# 3. Ask the user for the name of a pet.
 
 pet = input("Your pet name?\n")
 
-#4. Combine the name of their city and pet and show them their band name.
+# 4. Combine the name of their city and pet and show them their band name.
 
 print("Your band name is: " + city + " " + pet)
 
-#5. Make sure the input cursor shows on a new line:
-
+# 5. Make sure the input cursor shows on a new line:
