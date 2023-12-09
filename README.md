@@ -738,18 +738,23 @@ Based on a user's order, work out their final bill.
 ```
 Small Pizza: $15
 ```
+
 ```
 Medium Pizza: $20
 ```
+
 ```
 Large Pizza: $25
 ```
+
 ```
 Pepperoni for Small Pizza: +$2
 ```
+
 ```
 Pepperoni for Medium or Large Pizza: +$3
 ```
+
 ```
 Extra cheese for any size pizza: +$1
 ```
@@ -761,9 +766,11 @@ Extra cheese for any size pizza: +$1
 ```
 size = "L"
 ```
+
 ```
 add_pepperoni = "Y"
 ```
+
 ```
 extra_cheese = "N"
 ```
@@ -786,7 +793,8 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-1.  Think about what you've learnt about multiple if statements and see if you can reduce the number of lines of code while having the same functionality.
+1. Think about what you've learnt about multiple if statements and see if you can reduce the number of lines of code
+   while having the same functionality.
 
 ## Test Your Code
 
@@ -803,3 +811,201 @@ This repl includes my testing code that will check if your code meets this assig
 ---
 
 https://repl.it/@appbrewery/day-3-4-solution
+
+---
+
+# Love Calculator
+
+---
+
+## Instructions
+
+---
+
+You are going to write a program that tests the compatibility between two people.
+
+To work out the love score between two people:
+
+<blockquote>
+
+Take both people's names and check for the number of times the letters in the word TRUE occurs. Then check for the
+number of times the letters in the word LOVE occurs. Then combine these numbers to make a 2-digit number.
+
+</blockquote>
+
+**For Love Scores less than 10** or **greater than 90, the message should be:**
+
+```
+"Your score is **x**, you go together like coke and mentos.
+```
+
+**For Love Scores between 40** and **50, the message should be:**
+
+```
+"Your score is **y**, you are alright together."
+```
+
+**Otherwise, the message will just be their score. e.g.:**
+
+```
+"Your score is **z**
+```
+
+e.g.
+
+```
+name1 = "Jack Bauer"
+name2 = "Ana Manson"
+```
+
+T occurs 0 times
+
+R occurs 1 time
+
+U occurs 2 times
+
+E occurs 2 times
+
+Total = 5
+
+L occurs 1 time
+
+O occurs 0 times
+
+V occurs 0 times
+
+E occurs 2 times
+
+Total = 3
+
+Love Score = 53
+
+Print: "Your score is 53."
+
+## Example Input 1
+
+---
+
+```
+name1 = "Kanye West"
+```
+
+```
+name1 = "Kim Kardashian"
+```
+
+## Example Output 1
+
+---
+
+```
+Your score is 42, you are alright together.
+```
+
+## Example Input 2
+
+---
+
+```
+name1 = "Brad Pitt"
+```
+
+```
+name1 = "Jennifer Aniston"
+```
+
+## Example Output 2
+
+---
+
+```
+Your score is 73
+```
+
+The testing code will check for print output that is formatted like one of the lines below:
+
+```
+"Your score is 47, you are alright together."
+"Your score is 125, you go together like coke and mentos."
+"Your score is 54."
+```
+
+## Score Comparison
+
+---
+
+Not sure you're getting the correct score for the exercise? Use this table to check your code's score against mine.
+
+<table><thead><tr><th>Name 1</th><th>Name 2</th><th>Score</th></tr></thead><tbody><tr><td>Catherine Zeta-Jones</td><td>Michael Douglas</td><td>99</td></tr><tr><td>Brad Pitt</td><td>Jennifer Aniston</td><td>73</td></tr><tr><td>Prince William</td><td>Kate Middleton</td><td>67</td></tr><tr><td>Angela Yu</td><td>Jack Bauer</td><td>53</td></tr><tr><td>Kanye West</td><td>Kim Kardashian</td><td>42</td></tr><tr><td>Beyonce</td><td>Jay-Z</td><td>23</td></tr><tr><td>John Lennon</td><td>Yoko Ono</td><td>18</td></tr></tbody></table>
+
+## Hint
+
+---
+
+1. The **lower()** function changes all the letters in a string to lowercase.
+https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python
+2. The **count()** function will give you the number of times a letter occurs in a string.
+https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string
+
+## Test Your Code
+
+---
+
+Before checking the solution, try copy-pasting your code into this repl:
+
+https://repl.it/@appbrewery/day-3-5-test-your-code
+
+This repl includes my testing code that will check if your code meets this assignment's objectives.
+
+## Solution 
+
+---
+
+https://repl.it/@appbrewery/day-3-5-solution
+
+---
+
+# Treasure Island
+
+---
+
+## Instructions
+
+---
+
+Make your own "Choose Your Own Adventure" game. Use conditionals such as **if, else,** and **elif** statements to lay out the logic and the story's path in your program.
+
+<a node="[object Object]" href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload" target="_blank" rel="nofollow">To write your code according to my story, you can use this flow chart from draw.io to help you.</a>
+
+However, I think the fun part is writing your own story.
+
+That said if you'd like to continue with my example, feel free to use the text snippets below...
+
+**Text Snippets from my example**
+
+<ul>
+<li>'You're at a crossroad. Where do you want to go? Type "left" or "right"'</li>
+<li>'You've come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.'</li>
+<li>"You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?"</li>
+<li>"It's a room full of fire. Game Over."</li>
+<li>"You found the treasure! You Win!"</li>
+<li>"You enter a room of beasts. Game Over."</li>
+<li>"You chose a door that doesn't exist. Game Over."</li>
+<li>"You get attacked by an angry trout. Game Over."</li>
+<li>"You fell into a hole. Game Over."</li>
+</ul>
+
+## Escaping Characters
+
+---
+
+If you want to use multiple sets of quotes inside a single string, you might have to "escape" some of them using the backslash \. You can see this in my first sentence: 'You're at a crossroad...'. <a node="[object Object]" href="https://www.w3schools.com/python/gloss_python_escape_characters.asp">More on escaping characters here.</a>
+
+## Extensions
+
+---
+
+Have a think about how you might write your program to make a player's answers less case-sensitive. In other words, your code should work regardless of whether your user answers "left" or "Left".
+
+<a node="[object Object]" href="https://ascii.co.uk/art">You can also add your own ASCII art.</a>
+Just remember to add three single quotes **```** at the start and at the end of your artwork to turn it into a multi-line string.
