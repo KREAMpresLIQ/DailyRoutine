@@ -1009,3 +1009,89 @@ Have a think about how you might write your program to make a player's answers l
 
 <a node="[object Object]" href="https://ascii.co.uk/art">You can also add your own ASCII art.</a>
 Just remember to add three single quotes **```** at the start and at the end of your artwork to turn it into a multi-line string.
+
+---
+
+# Heads or Tails
+
+---
+
+## Instructions
+
+---
+
+You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
+
+**Important**, the first letter should be capitalised and spelt exactly like in the example e.g. Heads, not heads.
+
+There are many ways of doing this. But to practice what we learnt in the last lesson, you should generate a random number, either 0 or 1. Then use that number to print out Heads or Tails.
+
+e.g. 1 means Heads, 0 means Tails.
+
+## Example Output
+
+---
+
+```
+Heads
+```
+
+or
+
+```
+Tails
+```
+
+## Solution
+
+---
+
+https://replit.com/@appbrewery/day-4-1-solution
+
+---
+
+# Who's Paying
+
+---
+
+## Instrcutions
+
+---
+
+You are going to write a program which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
+
+**Important**: You are not allowed to use the ```choice()``` function.
+
+**Line 8** splits the string names ```names_string``` into individual names and puts them inside a **List** called ```names```. For this to work, you must enter all the names as name followed by comma then space. e.g. name, name, name.
+
+## Example Input
+
+---
+
+```
+Angela, Ben, Jenny, Michael, Chloe
+```
+
+Note: notice that there is a space between the comma and the next name.
+
+## Example Output
+
+---
+
+```
+Michael is going to buy the meal today!
+```
+
+## Hint
+
+---
+
+1. You might need to help of the ```len()``` function.
+https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list-length-of-a-list-in-python
+2. Remember that Lists start at index **0**!
+
+## Solution
+
+---
+
+https://replit.com/@appbrewery/day-4-2-solution
