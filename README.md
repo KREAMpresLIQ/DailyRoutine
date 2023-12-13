@@ -1054,7 +1054,7 @@ https://replit.com/@appbrewery/day-4-1-solution
 
 ---
 
-## Instrcutions
+## Instructions
 
 ---
 
