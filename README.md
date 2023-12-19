@@ -1095,3 +1095,131 @@ https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-
 ---
 
 https://replit.com/@appbrewery/day-4-2-solution
+
+---
+
+# Treasure Map
+
+---
+
+## Instructions
+
+You are going to write a program which will mark a spot with an X.
+
+In the starting code, you will find a variable called ```map```
+
+This ```map``` contains a nested list. When ```map``` is printed this is what the nested list looks like:
+
+```
+['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
+```
+
+In the starting code, we have used new lines ```(\n)``` to format the three rows into a square, like this:
+
+```
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+```
+
+this is to try and simulate the coordinates on a real map.
+
+<img node="[object Object]" src="https://replit.com/cdn-cgi/image/quality=80,metadata=copyright,format=auto/https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1440,f_auto/Co-ordinates_oggjzg.jpg" alt="" class="css-17vj7l">
+
+Your job is to write a program that allows you to mark a square on the map using a two-digit system. The first digit for the input will specify the column (the position on the horizontal axis). The second digit in the input will specify the row number (the position on the vertical axis).
+
+First your program must take the user input and convert it to a usable format.
+
+Next, you need to use it to update your nested list with an "x".
+
+## Example Input 1
+
+---
+
+column 2, row 3 would be entered as:
+
+```
+23
+```
+
+## Example Output 1
+
+---
+
+```
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+['⬜️', 'X', '⬜️']
+```
+
+## Example Input 2
+
+---
+
+column 3, row 1 would be entered as:
+
+```
+31
+```
+
+## Example Output 2
+
+---
+
+```
+['⬜️', '⬜️', 'X']
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+```
+
+e.g. When you hit **run**, this is what should happen:
+
+```
+
+```
+
+## Hint 
+
+---
+
+1. Remember that Lists start at index 0!
+2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.
+
+## Solution
+
+---
+
+https://repl.it/@appbrewery/day-4-3-solution
+
+---
+
+# Rock Paper Scissors
+
+---
+
+## Instructions
+
+---
+
+Make a rock, paper, scissors game.
+
+Inside the ```main.py``` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable:
+```rock```, ```paper```, and ```scissors```. This will make it easy to print them out to the console.
+
+Start the game by asking the player: 
+
+"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."
+
+From there you will need to figure out:
+<li>How you will store the user's input.</li>
+<li>How you will generate a random choice for the computer.</li>
+<li>How you will compare the user's and the computer's choice to determine the winner (or a draw)</li>
+<li>And also how you will give feedback to the player.</li>
+
+You can find the "official" rules of the game on <a node="[object Object]" href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/" target="_blank" rel="nofollow"> the World Rock Paper Scissors Association website.</a>
+
+## Solution
+
+---
+
+https://replit.com/@appbrewery/rock-paper-scissors-end
