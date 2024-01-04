@@ -48,4 +48,35 @@ print(f"The highest score in the class is: {highest_score}")
 
 
 
+############################
+# For loops and the range() function
+
+# for number in range(1, 11, 3):
+#     print(number)
+
+total = 0
+for number in range(1, 101):
+    total += number
+print(total)
+
+############################
+# Add Even numbers
+
+#####
+
+# total_even = 0
+# for numb_even in range(0, 101, 2):
+#     total_even += numb_even
+#     # print(total_even)
+# print(f"Sum of all even numbers {total_even}")
+
+####
+
+total_even = 0
+for numb_even in range(1, 101):
+    if numb_even % 2 == 0:
+        total_even += numb_even
+        # print(total_even)
+print(f"Sum of all even numbers {total_even}")
+
 
