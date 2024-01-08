@@ -79,4 +79,15 @@ for numb_even in range(1, 101):
         # print(total_even)
 print(f"Sum of all even numbers {total_even}")
 
+############################
+# FizzBuzz
 
+for divisible_number in range(1, 101):
+    if divisible_number % 3 == 0 and divisible_number % 5 == 0:
+        print("FizzBuzz")
+    elif divisible_number % 3 == 0:
+        print("Fizz")
+    elif divisible_number % 5 == 0:
+        print("Buzz")
+    else:
+        print(divisible_number)
