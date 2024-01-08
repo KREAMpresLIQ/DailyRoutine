@@ -1372,3 +1372,112 @@ Important, there should only be 1 print statement in your console output. It sho
 ---
 
 1. There are quite a few ways of solving this problem, but you will need to use the ```range()``` function in any of the solutions.
+
+
+---
+
+# FizzBuzz
+
+---
+
+## Instructions
+
+---
+
+You are going to write a program that automatically prints the solution to the FizzBuzz game.
+
+```
+Your program should print each number from 1 to 100 in turn.
+
+When the number is divisible by 3 then instead of printing the number it should print "Fizz".
+
+When the number is divisible by 5 then instead of printing the number it should print "Buzz".
+
+And if the number is divisible by both 3 and 5 e.g. 15 then instead of number it should print "FizzBuzz".
+```
+
+e.g. it might start off like this:
+
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```
+
+## Hint
+
+---
+
+1. Remember your answer should start from 1 and go up to and including 100.
+2. Each number/text should be printed on a separate line.
+
+---
+
+# Password Generator
+
+---
+
+## Instructions
+
+---
+
+The program will ask:
+
+```
+How many letters would you like in your password?
+```
+
+```
+How many symbols would you like?
+```
+
+```
+How many numbers would you like?
+```
+
+The objective is to take the inputs from the user to these questions and then generate a random password. Use your knowledge about Python lists and loops to complete the challenge.
+
+## Easy Version (Step 1)
+
+---
+
+Generate the password in sequence. If the user wants
+
+<ul>
+<li>4 letters</li>
+<li>2 symbols and </li>
+<li>3 numbers</li>
+</ul>
+
+then the password might look like this:
+
+```
+fgdx#*924
+```
+
+You can see that all the letters are together. All the symbols are together and all the numbers are together. Try to solve this problem first.
+
+## Hard Version (Step 2)
+
+---
+
+When you've completed the easy version, you're ready to tackle the hard version. In the advanced version of this project the final password does not follow a pattern. So the example above might look like this:
+
+```
+x#d24g*f9
+```
+
+And every time you generate a password, the positions of the symbols, numbers, and letters are different.
+
