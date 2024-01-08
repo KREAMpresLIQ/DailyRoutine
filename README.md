@@ -1,4 +1,4 @@
-## Printing to the console
+# Printing to the console
 
 ## Instructions
 
