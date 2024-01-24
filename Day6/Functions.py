@@ -39,15 +39,15 @@ my_function()
 # While loops
 
 ######## For
-for item in list_of_items:
+# for item in list_of_items:
     # Do something to each item
 
-for number in range(a,b):
-    print(number)
+# for number in range(a,b):
+#     print(number)
 
 ######## While
 
-while something_is_ture:
+# while something_is_ture:
     # Do something repeatedly
 
 
