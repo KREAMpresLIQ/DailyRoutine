@@ -934,7 +934,7 @@ The testing code will check for print output that is formatted like one of the l
 
 ---
 
-Not sure you're getting the correct score for the exercise? Use this table to check your code's score against mine.
+No sure you're getting the correct score for the exercise? Use this table to check your code's score against mine.
 
 <table><thead><tr><th>Name 1</th><th>Name 2</th><th>Score</th></tr></thead><tbody><tr><td>Catherine Zeta-Jones</td><td>Michael Douglas</td><td>99</td></tr><tr><td>Brad Pitt</td><td>Jennifer Aniston</td><td>73</td></tr><tr><td>Prince William</td><td>Kate Middleton</td><td>67</td></tr><tr><td>Angela Yu</td><td>Jack Bauer</td><td>53</td></tr><tr><td>Kanye West</td><td>Kim Kardashian</td><td>42</td></tr><tr><td>Beyonce</td><td>Jay-Z</td><td>23</td></tr><tr><td>John Lennon</td><td>Yoko Ono</td><td>18</td></tr></tbody></table>
 
@@ -1278,7 +1278,7 @@ In this case, student_heights would be a list that looks like: [156,178,165,171,
 
 ---
 
-1. Remember to use the ```round()``` functions to round the average height beofre you print it.
+1. Remember to use the ```round()``` functions to round the average height before you print it.
 
 ## Test Your Code
 
@@ -1310,7 +1310,7 @@ You are going to write a program that calculates the highest score from a List o
 
 e.g. ```student_score = [78, 65, 89, 86, 55, 91, 64, 89]```
 
-**Important** you are not allowed to use the max or min functions. The output words must match the example. i.e
+**Important** you are not allowed to use the max or min functions. The output words must match the example. i.e.
 
 ```The highest score in the class is: x```
 
